@@ -21,7 +21,7 @@
   - [x] mount ISO and run `install-tl-windows.bat`
   - [x] than click on Install and
   - [x] wait for `--no-strict --all ...done` (4813/4813) and Close
-- Than start _TexWorks editor_ OR install TeXstudio Editor (see step 2.)
+- Than start _TexWorks editor_ or install _TeXStudio_ editor (see step 2.)
 - Install also:
 - [ ] TeX Live Manager (tlmgr)
 - [ ] Readme [https://www.dante.de/installation-von-tex-live-unter-windows/](https://www.dante.de/installation-von-tex-live-unter-windows/])
