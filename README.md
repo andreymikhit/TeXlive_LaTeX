@@ -2,7 +2,7 @@
 
 ### 1. Install in Windows TeX or MiKTex:
 **Download** and install TeX Live from [https://www.tug.org/texlive/](https://www.tug.org/texlive/)
-1. Choose **Ways to acquire TeX Live**:
+1. Choose **Ways to acquire TeX Live** (an ISO image):
   - [ ] download,
   - [x] **an ISO image or via torrent,**
   - [ ] on DVD,
@@ -30,7 +30,7 @@
 6. Install package / update / upgrade also:
 - [ ] TeX Live Manager (tlmgr): `tlmgr -help install` than try `tlmgr update --list`, `tlmgr update --self`, `tlmgr update --all` or `tlmgr install <package>` or `tlmgr update <package>`  in **TeX Live command-line**.
 > _Readme: [https://tug.org/texlive/tlmgr.html](https://tug.org/texlive/tlmgr.html)_
-- alternatively to TeX Live download and install MikTeX from [https://miktex.org/download](https://miktex.org/download)
+- alternatively to TeX Live you can download and install MikTeX from [https://miktex.org/download](https://miktex.org/download)
   - [ ] basic-miktex-25.12-x64.exe
 
 ### 2. Install in Windows TeXstudio Editor
