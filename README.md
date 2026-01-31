@@ -20,7 +20,7 @@
 - Install process:
   - [x] mount ISO and run `install-tl-windows.bat`
   - [x] than click on Install and
-  - [x] wait for `--no-strict --all ...done` (4813/4813) and Close
+  - [x] wait for `Running fc-cache -v -r ... finished with package-specific postactions ... Willkommen bei TeX Live!` (4813/4813) and click Close
 - Than start _TexWorks editor_ or install _TeXStudio_ editor (see step 2.)
 - Install also:
 - [ ] TeX Live Manager (tlmgr)
