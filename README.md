@@ -46,6 +46,30 @@
 - create new .tex File -> New (Ctrl + N)
 - write an exapmle .tex and save file to `first.tex` after clicking to the green typereset ⯈ symbol
 
+
+### Install in Linux & TeXstudio Editor
+- Install from Debian src
+```bash
+sudo apt install texlive-*
+# install all packages 6.863 MB
+# Version 2022
+```
+
+- or install newer from TeX
+```bash
+cd /tmp # working directory of your choice
+Download: wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+           or: curl -L -o install-tl-unx.tar.gz https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+(or via whatever other method you like)
+zcat < install-tl-unx.tar.gz | tar xf - # note final - on that command line
+cd install-tl-2*
+perl ./install-tl --no-interaction # as root or with writable destination
+# may take several hours to run
+Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH,
+e.g., /usr/local/texlive/2026/bin/x86_64-linux
+```
+
+
 ```tex
 % --- first.tex ---
 
