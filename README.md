@@ -63,7 +63,8 @@ Download: wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.
 (or via whatever other method you like)
 zcat < install-tl-unx.tar.gz | tar xf - # note final - on that command line
 cd install-tl-2*
-perl ./install-tl --no-interaction # as root or with writable destination
+# perl ./install-tl --no-interaction # as root or with writable destination
+sudo ./install-tl --no-interaction
 # may take several hours to run
 Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH,
 e.g., /usr/local/texlive/2026/bin/x86_64-linux
